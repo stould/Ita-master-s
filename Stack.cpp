@@ -49,6 +49,7 @@ struct Stack{
             Node *tmp = head;
             head = head->next;
             free(tmp);
+            size--;
         }
     }
 
